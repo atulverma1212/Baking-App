@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="ingredients">Recipe Ingredients</string>
+    <string name="next_step">NEXT STEP</string>
+    <string name="appwidget_text">INGREDIENTS</string>
+    <string name="add_widget">Add widget</string>
+    <string name="error_msg">Failed to connect to Internet ...</string>
+    <string name="fetch_data">Fetching data from Internet ...</string>
+    <string name="noImage">No Image Available</string>
+</resources>

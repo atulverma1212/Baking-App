@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:background="#ECEFF1"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/steps_container"
+        tools:context="com.example.averma1212.bakingapp.stepsActivity"
+        >
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ingredients_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="8dp"
+                card_view:cardElevation="@dimen/card_elevation">
+
+                <TextView
+                    android:id="@+id/recipe_ingredients"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ingredients"
+                    android:padding="8dp"
+                    android:textSize="32sp"
+                    android:textStyle="italic"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"/>
+            </android.support.v7.widget.CardView>
+
+            <include layout="@layout/body_part_fragment" />
+        </LinearLayout>
+
+
